@@ -8,6 +8,7 @@ import org.springframework.kafka.config.TopicBuilder;
 @Configuration
 public class KafkaTopicConfig {
 
+    //bhaskar here is Topic Name which will be used while sending and receiving data
     @Bean
     public NewTopic bhaskarTopic() {
         return TopicBuilder.name("bhaskar").build();
